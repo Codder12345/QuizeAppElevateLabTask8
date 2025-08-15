@@ -52,6 +52,50 @@ Enter choice: 2
 ```
 <img width="320" height="370" alt="image" src="https://github.com/user-attachments/assets/9a56d78d-15d4-4629-8ca8-f545f4d14f3a" />
 
+
+### 🇮🇳 Indian Flag Console Program (Java)###
+
+## 📜 Description
+A **Java console-based program** that displays the **Indian National Flag** using ANSI escape codes for colors and ASCII characters.  
+It also prints a **"Happy Independence Day"** message at the end.
+
+---
+
+## 🛠 Technologies Used
+- **Java**
+- **ANSI Escape Codes** (for colored console output)
+
+---
+
+## 📂 Code Structure
+**Package:** `org.Elevatelab.com`  
+**Class:** `IndianFlag`  
+**Main Method:** Prints the tricolor with the Ashoka Chakra in the middle stripe.
+
+---
+
+## 📌 Features
+- **Saffron, White, and Green** colored stripes using console colors.
+- **Ashoka Chakra** text in the middle white stripe.
+- Festive **Independence Day** greeting at the end.
+
+---
+
+## 🚀 How to Run
+1. Save the file as `IndianFlag.java` inside the directory matching the package:
+
+```
+2. Compile the program:
+```bash
+javac src/org/Elevatelab/com/IndianFlag.java
+Run the program:
+
+java -cp src org.Elevatelab.com.IndianFlag
+```
+<img width="326" height="290" alt="image" src="https://github.com/user-attachments/assets/e5132fd1-e038-4a52-873a-2fded84d9361" />
+
+
+
 👨‍💻 Author
 Pooja Waykar
 Java Developer Intern
