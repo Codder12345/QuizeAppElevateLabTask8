@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="F:\QuizeApptask8\QuizeApp\src\main\java\org\elavatelab\QuizApp.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -43,12 +44,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="org.elaavatelab"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="QuizeApp"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

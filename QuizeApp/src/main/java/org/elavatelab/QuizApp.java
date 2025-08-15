@@ -36,6 +36,7 @@ public class QuizApp {
         } while (choice != 3);
     }
 
+      
     // Function to add a question
     static void addQuestion() {
         System.out.print("Enter question: ");
