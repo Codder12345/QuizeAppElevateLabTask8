@@ -1,0 +1,40 @@
+package org.elavatelab;
+
+public class QuizApp {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        List<Question> questions = new ArrayList<>();
+
+        // Adding questions
+        questions.add(new Question("What is the capital of India?",
+                new String[]{"A. New Delhi", "B. Mumbai", "C. Kolkata", "D. Chennai"}, 'A'));
+
+        questions.add(new Question("Which keyword is used to inherit a class in Java?",
+                new String[]{"A. this", "B. extends", "C. implements", "D. super"}, 'B'));
+
+        questions.add(new Question("Which collection allows duplicate elements?",
+                new String[]{"A. Set", "B. Map", "C. List", "D. None"}, 'C'));
+
+        int score = 0;
+
+        // Loop through questions
+        for (Question q : questions) {
+            System.out.println("\n" + q.question);
+            for (String opt : q.options) {
+                System.out.println(opt);
+            }
+            System.out.print("Enter your answer (A/B/C/D): ");
+            char ans = sc.next().charAt(0);
+
+            if (q.isCorrect(ans)) {
+                System.out.println("✅ Correct!");
+                score++;
+            } else {
+                System.out.println("❌ Wrong! Correct answer: " + q.correctAnswer);
+            }
+        }
+
+        System.out.println("\n🎯 Quiz Over! Your score: " + score + "/" + questions.size());
+        sc.close();
+    }
+}
