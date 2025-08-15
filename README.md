@@ -51,8 +51,8 @@ Enter correct answer (A/B/C/D): A
 Enter choice: 2
 ```
 <img width="320" height="370" alt="image" src="https://github.com/user-attachments/assets/9a56d78d-15d4-4629-8ca8-f545f4d14f3a" />
-👨‍💻 Author
 
+👨‍💻 Author
 Pooja Waykar
 Java Developer Intern
 
